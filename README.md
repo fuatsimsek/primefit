@@ -8,6 +8,7 @@ Bu proje, kullanıcıların çeşitli supplement ürünlerini satın alabilecekl
 - 🔹 Ürün detayları ve açıklamaları
 - 🔹 Sepete ekleme ve satın alma işlemleri
 - 🔹 Kullanıcı dostu arayüz
+- 🔹 Mobile uyumlu
 
 ## 🛠️ Kullanılan Teknolojiler
 - **Frontend:** HTML, CSS, Bootstrap, Javascript

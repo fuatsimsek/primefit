@@ -27,19 +27,10 @@
                 <div class="siteLogo">
                     <a class="logoa" href="index.php"><img src="images/myLogo.png" alt="Logo" width="200px"></a>
                 </div>
-                <!-- <div class="siteBaslik">
-                    <a class="titlea" href="index.php">
-                        <h3 class="title">PRIME FIT</h3>
-                    </a>
-                </div> -->
             </div>
 
             <!-- Arama ve Menü -->
             <div class="aramaVeIcerik">
-                <!-- <div class="arama">
-                    <input type="search" placeholder="Arama Yapın">
-                    <form><button class="searchBtn">Ara</button></form>
-                </div> -->
                 <div class="icerik">
                     <ul class="kategoriler">
                         <li><a href="index.php">Anasayfa</a></li>
@@ -51,8 +42,6 @@
                                 <li><a href="karbonhidrat.php"> KARBONHİDRAT</a></li>
                                 <li><a href="l-carnitine.php"> L-CARNITINE</a></li>
                                 <li><a href="enerjikaynaklari.php"> ENERJİ KAYNAKLARI</a></li>
-                                <!-- <li><a href="#">👕 Giyim ve Aksesuarlar</a></li>
-                                <li><a href="#">💪 Fitness ve Sağlık Ürünleri</a></li> -->
                             </ul>
                         </li>
                         <li><a href="hakkinda.php">Hakkımızda</a></li>
@@ -123,7 +112,6 @@
                     <h5 class="card-title">PRIME FIT</h5>
                     <p class="card-text myCardText">PREMIUM HYDRO WHEY</p>
                     <a href="urunler/PREMIUM HYDRO WHEY.php" class="btn btn-primary sepetEklelButon"><span class="inceleBtnText">İNCELE</span></a>
-                    <!-- <span class="etiketFiyat">690 TL</span><span class="delFiyat">840TL</span> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -132,7 +120,6 @@
                     <h5 class="card-title">PRIME FIT</h5>
                     <p class="card-text myCardText">ULTRA AMINO PRO</p>
                     <a href="urunler/ULTRA AMINO PRO.php" class="btn btn-primary sepetEklelButon"><span class="inceleBtnText">İNCELE</span></a>
-                    <!-- <span class="etiketFiyat">690 TL</span><span class="delFiyat">840TL</span> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -141,7 +128,6 @@
                     <h5 class="card-title">PRIME FIT</h5>
                     <p class="card-text myCardText">L-CARNITINE LIQUID OR.</p>
                     <a href="urunler/L-CARNITINE LIQUID OR..php" class="btn btn-primary sepetEklelButon"><span class="inceleBtnText">İNCELE</span></a>
-                    <!-- <span class="etiketFiyat">690 TL</span><span class="delFiyat">840TL</span> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -150,7 +136,6 @@
                     <h5 class="card-title">PRIME FIT</h5>
                     <p class="card-text myCardText">MAXIMUM KREA-GENIC</p>
                     <a href="urunler/MAXIMUM KREA-GENIC.php" class="btn btn-primary sepetEklelButon"><span class="inceleBtnText">İNCELE</span></a>
-                    <!-- <span class="etiketFiyat">690 TL</span><span class="delFiyat">840TL</span> -->
                 </div>
             </div>
         </div>
@@ -162,11 +147,6 @@
                 <div class="siteLogo">
                     <a class="logoa" href="index.php"><img src="images/myLogo.png" alt="Logo" width="200px"></a>
                 </div>
-                <!-- <div class="siteBaslik">
-                    <a class="titlea" href="index.php">
-                        <h3 class="title">PRIME FIT</h3>
-                    </a>
-                </div> -->
             </div>
             <p class="footer-text">© 2024 Tüm Hakları Saklıdır.</p>
             <div class="sosyalMedya">

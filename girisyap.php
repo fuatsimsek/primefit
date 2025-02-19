@@ -68,10 +68,6 @@ $conn->close();
 
             <!-- Arama ve Menü -->
             <div class="aramaVeIcerik">
-                <!-- <div class="arama">
-                    <input type="search" placeholder="Arama Yapın">
-                    <form><button class="searchBtn">Ara</button></form>
-                </div> -->
                 <div class="icerik">
                     <ul class="kategoriler">
                         <li><a href="index.php">Anasayfa</a></li>
@@ -165,11 +161,6 @@ $conn->close();
                 <div class="siteLogo">
                     <a class="logoa" href="index.php"><img src="images/myLogo.png" alt="Logo" width="200px"></a>
                 </div>
-                <!-- <div class="siteBaslik">
-                    <a class="titlea" href="index.php">
-                        <h3 class="title">PRIME FIT</h3>
-                    </a>
-                </div> -->
             </div>
             <p class="footer-text">© 2024 Tüm Hakları Saklıdır.</p>
             <div class="sosyalMedya">

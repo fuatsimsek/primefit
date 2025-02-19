@@ -277,7 +277,7 @@ body {
 }
 
 .bannerBtn {
-    font-size: 18px;
+    font-size: 24px;
     padding: 10px 20px;
     background-color: #f4a261;
     border: none;
@@ -335,16 +335,6 @@ body {
     color: #e76f51;
 }
 
-/* .etiketFiyat {
-    font-size: 19px;
-    color: red !important;
-    margin-right: 5px;
-}
-
-.delFiyat {
-    text-decoration: line-through -2px;
-    font-size: 17px;
-} */
  .card{
     background-color: #555 !important;
  }
@@ -473,4 +463,228 @@ body {
 {
     text-align: left;
     margin-left: 80px;
+}
+@media (max-width: 1024px) {
+    .arama input {
+        width: 250px;
+    }
+    .kategoriler {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbarMenu {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .siteLogoVeBaslik {
+        justify-content: center;
+    }
+
+    .aramaVeIcerik {
+        margin-left: 0;
+    }
+    
+    .arama input {
+        width: 200px;
+    }
+
+    .girisVeSepet {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .cardTitle {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .card {
+        width: 100%;
+    }
+    
+    .footer {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .arama input {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .cardBaslik {
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 1200px) {
+    .cardMenu .card {
+        width: 45% !important; /* Büyük ekranlarda 2 sütun */
+    }
+}
+
+@media (max-width: 768px) {
+    .cardMenu .card {
+        width: 100% !important; /* Küçük ekranlarda 1 sütun */
+    }
+}
+
+/* Yazıların boyutunu küçültme */
+@media (max-width: 992px) {
+    .card-title {
+        font-size: 1.2rem !important;
+    }
+    .card-text {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1rem !important;
+    }
+    .card-text {
+        font-size: 0.9rem !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .banner {
+        height: 70vh !important;
+        padding: 40px 10px !important;
+    }
+
+    .bannerTitl {
+        font-size: 45px !important;
+        padding: 15px !important;
+    }
+
+    .bannerBtn {
+        font-size: 22px !important;
+        padding: 8px 16px !important;
+    }
+}
+
+/* 🎯 Küçük Telefon (576px - 768px) */
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 60vh !important;
+        padding: 30px 10px !important;
+    }
+
+    .bannerTitl {
+        font-size: 40px !important;
+        padding: 12px !important;
+    }
+
+    .bannerBtn {
+        font-size: 20px !important;
+        padding: 6px 12px !important;
+    }
+}
+
+/* 🎯 Çok Küçük Telefon (576px ve altı) */
+@media screen and (max-width: 576px) {
+    .banner {
+        height: 50vh !important;
+        padding: 20px 5px !important;
+    }
+
+    .bannerTitl {
+        font-size: 36px !important;
+        padding: 10px !important;
+    }
+
+    .bannerBtn {
+        font-size: 18px !important;
+        padding: 5px 10px !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .navbarMenu {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    .aramaVeIcerik {
+        margin-left: 0 !important;
+    }
+
+    .kategoriler {
+        gap: 15px;
+    }
+
+    .girisVeSepet {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cardMenuTitleandMenu h2{
+        font-size: 25px !important;
+    }
+}
+
+/* 🎯 Küçük Telefon (576px - 768px) */
+@media screen and (max-width: 768px) {
+    .navbarMenu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .siteLogo img {
+        width: 150px !important;
+    }
+
+    /* Menü gizleme */
+    .kategoriler {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .kategoriler.showMenu {
+        display: flex;
+    }
+
+    .girisVeSepet {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .cardMenuTitleandMenu h2{
+        font-size: 23px !important;
+    }
+
+}
+
+/* 🎯 Çok Küçük Telefon (576px ve altı) */
+@media screen and (max-width: 576px) {
+    .siteLogo img {
+        width: 120px !important;
+    }
+
+    .girisVeSepet {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .girisVeSepet .kart,
+    .girisVeSepet .profil {
+        font-size: 14px !important;
+        padding: 8px 15px !important;
+    }
+    .cardMenuTitleandMenu h2{
+        font-size: 18px !important;
+    }
 }

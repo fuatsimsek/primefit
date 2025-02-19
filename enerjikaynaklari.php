@@ -95,7 +95,7 @@
         <div class="cardTitle">
             <h2 class="cardBaslik">ENERJİ KAYNAKLARI</h2>
         </div>
-        <div class="cardMenu d-flex justify-content-around">
+        <div class="cardMenu d-flex d-flex justify-content-around flex-wrap">
             <div class="card" style="width: 18rem;">
                 <img src="images/NOS-X10.webp" class="card-img-top cardImg" alt="..." height="65%">
                 <div class="card-body">

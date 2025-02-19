@@ -78,3 +78,72 @@
     margin: 30px auto 0;
     border-radius: 2px;
 }
+@media (max-width: 1024px) {
+    .hakkimizda-container {
+        width: 80%;
+        padding: 35px;
+    }
+
+    .hakkimizda h2 {
+        font-size: 32px;
+    }
+
+    .hakkimizda h3 {
+        font-size: 24px;
+    }
+
+    .hakkimizda p, .hakkimizda ul li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hakkimizda {
+        padding: 50px 20px;
+    }
+
+    .hakkimizda-container {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .hakkimizda h2 {
+        font-size: 28px;
+    }
+
+    .hakkimizda h3 {
+        font-size: 22px;
+    }
+
+    .hakkimizda p, .hakkimizda ul li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hakkimizda {
+        padding: 40px 15px;
+    }
+
+    .hakkimizda-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .hakkimizda h2 {
+        font-size: 24px;
+    }
+
+    .hakkimizda h3 {
+        font-size: 20px;
+    }
+
+    .hakkimizda p, .hakkimizda ul li {
+        font-size: 14px;
+    }
+
+    .hakkimizda-container::after {
+        width: 60px;
+        height: 3px;
+    }
+}

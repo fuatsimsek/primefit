@@ -87,7 +87,6 @@
                 <span>- İhtiyacınız Olan Her An</span>
             </div>
         </div>
-
     </section>
 
     <div class="banner">

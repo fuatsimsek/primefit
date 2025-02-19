@@ -90,3 +90,81 @@ textarea.form-control {
     display: flex;
     justify-content: flex-end;
 }
+@media (max-width: 1024px) {
+    .iletisimKismi {
+        width: 80%;
+        padding: 35px;
+    }
+
+    .iletisimBaslik {
+        font-size: 32px;
+    }
+
+    .form-control {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .iletisimBtn {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .iletisimMenu {
+        padding: 30px 15px;
+    }
+
+    .iletisimKismi {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .iletisimBaslik {
+        font-size: 28px;
+    }
+
+    .form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .iletisimBtn {
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+
+    .iletisimbtnDiv {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .iletisimMenu {
+        padding: 20px 10px;
+    }
+
+    .iletisimKismi {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .iletisimBaslik {
+        font-size: 24px;
+    }
+
+    .form-control {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .iletisimBtn {
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+
+    .iletisimbtnDiv {
+        justify-content: center;
+    }
+}

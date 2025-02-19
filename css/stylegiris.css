@@ -69,3 +69,62 @@
     color: #f57c00;
     text-decoration: none;
 }
+@media (max-width: 1024px) {
+    .girisVeKayitOl-container {
+        width: 60%;
+        padding: 30px;
+    }
+    
+    .girisVeKayitOl h2 {
+        font-size: 30px;
+    }
+
+    .girisYapBtn {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .girisVeKayitOl-container {
+        width: 80%;
+        padding: 25px;
+    }
+    
+    .girisVeKayitOl h2 {
+        font-size: 26px;
+    }
+
+    .girisYapBtn {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    .hesapOlustur {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .girisVeKayitOl {
+        padding: 40px 15px;
+    }
+
+    .girisVeKayitOl-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .girisVeKayitOl h2 {
+        font-size: 22px;
+    }
+
+    .girisYapBtn {
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+
+    .hesapOlustur {
+        font-size: 14px;
+    }
+}

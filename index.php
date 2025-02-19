@@ -87,7 +87,6 @@
                 <span>- İhtiyacınız Olan Her An</span>
             </div>
         </div>
-
     </section>
 
     <div class="banner">
@@ -106,7 +105,7 @@
             <h2 class="cardBaslik">ÇOK SATANLAR</h2>
         </div>
         <div >
-            <div class="cardMenu d-flex justify-content-around">
+            <div class="cardMenu d-flex justify-content-around flex-wrap">
                 <div class="card" style="width: 18rem;">
                     <img src="images/PREMIUM HYDRO WHEY.webp" class="card-img-top cardImg" alt="..." height="65%">
                     <div class="card-body">

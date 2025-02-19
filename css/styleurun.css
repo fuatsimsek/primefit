@@ -84,3 +84,97 @@
     text-decoration-thickness: 0.1px !important;
     margin-right: 5px !important;
 }
+@media (max-width: 1024px) {
+    .urunInfo {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imgDiv {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+        padding: 15px;
+    }
+
+    .detayDiv {
+        padding: 20px;
+    }
+
+    .price {
+        font-size: 1.4em;
+    }
+
+    .sepetEklelButon {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .urunInfo {
+        width: 95%;
+    }
+
+    .detayDiv h3 {
+        font-size: 22px;
+    }
+
+    .detayDiv p, .detayDiv ul {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 1.3em;
+    }
+
+    .silinenfiyat {
+        font-size: 15px !important;
+    }
+
+    .sepetEklelButon {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .urunInfo {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .imgDiv {
+        padding: 10px;
+    }
+
+    .detayDiv {
+        padding: 15px;
+    }
+
+    .detayDiv h3 {
+        font-size: 20px;
+    }
+
+    .detayDiv p, .detayDiv ul {
+        font-size: 15px;
+    }
+
+    .priceSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .silinenfiyat {
+        font-size: 14px !important;
+    }
+
+    .sepetEklelButon {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

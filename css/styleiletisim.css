@@ -1,0 +1,92 @@
+/* Genel İletişim Menüsü Stil */
+.iletisimMenu {
+    min-height: 80vh;
+    padding: 40px 20px;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* İletişim Bölümünün Kart Görünümü */
+.iletisimKismi {
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+    /* Metin rengi hakkımızda ile uyumlu */
+}
+
+/* Başlık */
+.iletisimBaslik {
+    font-size: 36px;
+    color: #f4a261;
+    /* HAKKIMIZDA başlığı ile uyumlu */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Form Elemanları */
+.iletisimForm {
+    width: 100%;
+}
+
+.iletisimElemani {
+    margin-bottom: 25px;
+}
+
+.iletisimElemani label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #444;
+    /* Yazı rengi */
+}
+
+.form-control {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Metin Alanı */
+textarea.form-control {
+    resize: none;
+}
+
+/* Gönder Butonu */
+.iletisimBtn {
+    border-radius: 8px;
+    background-color: #00509e !important;
+    color: #ffffff !important;
+    padding: 12px 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.iletisimBtn:hover {
+    background-color: #003366 !important;
+    transform: translateY(-3px);
+}
+
+/* Buton hizalaması */
+.iletisimbtnDiv {
+    display: flex;
+    justify-content: flex-end;
+}

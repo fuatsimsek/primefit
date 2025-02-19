@@ -1,0 +1,86 @@
+.urunInfo {
+    display: flex;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #444;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.imgDiv {
+    flex: 1;
+    border-right: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #444;
+}
+
+.imgDiv img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.detayDiv {
+    flex: 2;
+    padding: 20px;
+}
+
+.myLogoTitle {
+    font-weight: bold;
+    display: inline-block;
+    color: #e76f51;
+    font-size: 1.25em;
+}
+
+.detayDiv h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.detayDiv p, .detayDiv ul {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.detayDiv ul {
+    padding-left: 20px;
+}
+
+.priceSection {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.sepetEklelButon:hover {
+    background-color: transparent !important;
+    transform: translateY(-5px);
+    color: #008000 !important;
+}
+
+.kategorisiText {
+    font-size: 18px !important;
+}
+
+.kategoriText {
+    font-weight: bolder !important;
+}
+.silinenfiyat{
+    color: red !important;
+    text-decoration: line-through;
+    font-size: 17px !important;
+    text-decoration-thickness: 0.1px !important;
+    margin-right: 5px !important;
+}

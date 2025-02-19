@@ -1,0 +1,88 @@
+.girisVeKayitOl {
+    margin-top: 30px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #f9f9f9;
+}
+
+.girisVeKayitOl-container {
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.girisVeKayitOl {
+    margin-top: 30px;
+    padding: 60px 30px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #f9f9f9;
+}
+
+.girisVeKayitOl-container {
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    width: 40%;
+
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.girisVeKayitOl h2 {
+    font-size: 36px;
+    color: #f4a261;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.kayitYapBtnDiv {
+    display: flex;
+    justify-content: end;
+}
+
+.kayitYapBtn {
+    border-radius: 8px;
+    background-color: #00509e !important;
+    color: #ffffff !important;
+    padding: 12px 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.girisYapBtn:hover {
+    background-color: #003366 !important;
+    transform: translateY(-3px);
+}
+.form-check{
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+}
+.labelCheck{
+    margin-left:20px;
+    font-size: 17px;
+}

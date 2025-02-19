@@ -1,0 +1,80 @@
+.hakkimizda {
+    margin-top: 30px;
+    padding: 60px 30px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #f9f9f9;
+}
+
+.hakkimizda-container {
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hakkimizda h2 {
+    font-size: 36px;
+    color: #f4a261;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hakkimizda p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.hakkimizda h3 {
+    font-size: 28px;
+    color: #d84315;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hakkimizda ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.hakkimizda ul li {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #666;
+    transition: color 0.3s ease-in-out;
+}
+
+.hakkimizda ul li:hover {
+    color: #f57c00;
+}
+
+.hakkimizda p:last-child {
+    font-weight: 600;
+    color: #333;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.hakkimizda-container::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #f57c00;
+    margin: 30px auto 0;
+    border-radius: 2px;
+}

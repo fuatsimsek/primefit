@@ -48,10 +48,10 @@ Bu proje, kullanıcıların çeşitli supplement ürünlerini satın alabilecekl
 **Herhangi bir üründen bir görüntü**
 ![4](https://github.com/user-attachments/assets/51b805c9-16c7-42af-a21b-87e08b5539bc)
 
-**Admin panelinden bir üründen bir görüntü**
+**Admin panelinden bir görüntü**
 ![5](https://github.com/user-attachments/assets/f54aa316-8b8f-49e8-9e58-e2129c160d4b)
 
-**Ürün yönetiminden bir üründen bir görüntü**
+**Ürün yönetiminden bir görüntü**
 ![6](https://github.com/user-attachments/assets/3f9587ad-0180-442d-9a35-e0685501f162)
 
 

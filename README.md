@@ -20,6 +20,23 @@ Bu proje, kullanıcıların çeşitli supplement ürünlerini satın alabilecekl
 1. **WampServer'ı indirip** kurun: [WampServer](https://www.wampserver.com/)
 2. **Proje dosyalarını** `C:/wamp64/www/` içine kopyalayın.
 3. **Veritabanı Bağlantısı:**
+Veritabanı Kurulumu
+Projeye ait veritabanını kurmak için primefit.sql dosyasını kullanabilirsiniz. Bu SQL dosyası, veritabanını başlatmak için gerekli şemayı ve veriyi içermektedir.
+
+Talimatlar:
+primefit.sql dosyasını indirin ve veritabanı yönetim sisteminize (MySQL, PostgreSQL vb.) içe aktarın.
+
+SQL dosyasını çalıştırın:
+
+MySQL kullanıyorsanız, şu komutu MySQL terminal veya GUI aracılığıyla çalıştırabilirsiniz:
+sql
+Kopyala
+Düzenle
+SOURCE path/to/primefit.sql;
+Veritabanı, proje için gerekli olan tablolar ve veriler ile oluşturulacaktır.
+
+Dosyayı içe aktarmadan önce doğru izinlere sahip olduğunuzdan ve veritabanı ortamınızın düzgün çalıştığından emin olun.
+
    - `ilgili PHP dosyanızda aşağıdaki kodu kullanarak veritabanına bağlanın:
      ```php
      <?php
@@ -31,7 +48,7 @@ Bu proje, kullanıcıların çeşitli supplement ürünlerini satın alabilecekl
      ?>
      ```
      ve wampserverde phpmyadmin bölümünde primefit diye bir database oluşturup ilgili tabloları oluşturun.
-4. **Projeyi çalıştırın:**
+5. **Projeyi çalıştırın:**
    - Tarayıcınıza `http://localhost/primefit` yazın.
 
 ## 📸 Ekran Görüntüleri
